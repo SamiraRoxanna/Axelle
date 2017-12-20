@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+/* Set all the margins and padding to 0 */
+
+html, body, h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+/* layouts */
+#wrapper {
+	text-align: left;
+	margin: auto;
+	width: 788px;
+	 background:white;
+}
+#left {
+background:white;
+width: 268px;
+float:left;
+}
+
+#right {
+  width: 520px;
+  float:right;
+   background:silver;
+   text-align:center;
+ }
+/* left contains copyright */
+#copyright{
+background:white;
+text-align:center;
+}
+/* right contains nav, content and footer */
+
+#nav
+{
+background: url(images/header.jpg) no-repeat;
+height: 108px;
+text-align:center;
+}
+
+#content
+{
+width:480px;
+background:white;
+margin:10px;
+padding:10px;
+text-align:left;
+}
+
+#footer{
+width:520px;
+background:white;
+}
+
+/* set the background color */
+
+body {
+background: #8E0D0D;
+text-align:center;
+}
+
+/* set the style for hyperlinks */
+a {
+	color: #999999;
+	font-weight: bold;
+	text-decoration: none;
+	width:auto;
+	border-right: 1px solid #A26A6B;
+              padding: 66px 9px 9px 9px;
+              height:70px;
+  }
+a:hover {
+	color: #336699;
+	text-decoration: underline;
+}
+
+/* styles for text */
+h1{
+text-align:center;
+color:#333333;
+}
+
+h2 {
+color:#8E0D0D;
+}
+
+/* style for image in the content */
+.left
+{ 
+float:left;
+ margin:10px;
+}
+
